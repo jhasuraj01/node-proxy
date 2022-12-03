@@ -66,10 +66,10 @@ server.on("close", () => {
 
 server.listen(
     {
-        host: "localhost",
+        host: "0.0.0.0",
         port: 80,
     },
     () => {
-        console.log("Server listening on localhost:80");
+        console.log("Server listening on 0.0.0.0:80");
     }
 );
