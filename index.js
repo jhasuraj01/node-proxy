@@ -70,6 +70,6 @@ server.listen(
         port: 80,
     },
     () => {
-        console.log("Server listening on http://localhost:80");
+        console.log("Server listening on localhost:80");
     }
 );
